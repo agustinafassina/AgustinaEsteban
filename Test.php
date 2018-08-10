@@ -1,11 +1,11 @@
 <?php
 
-include 'HP.php';
-include 'Epson.php';
-include 'HojaA4.php';
-include 'Cartulina.php';
+include 'vendor/autoload.php';
 
-$Impresora = new Epson();
+use TestPHP\Impresoras;
+use TestPHP\Cartulina;
+
+$Impresora = new Impresoras\Epson();
 
 $papel = new Cartulina();
 

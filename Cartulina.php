@@ -1,6 +1,6 @@
 <?php
 
-include_once 'PapelInterface.php';
+namespace TestPHP;
 
 class Cartulina implements PapelInterface
 {
